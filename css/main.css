@@ -78,11 +78,15 @@ footer {
   footer {
     background-color:greenyellow ;
   }
+
+  .col-3 {
+    width: 50%;
+  }
   
 }
 
 
-/*---------- Desktops ----------*/
+/*---------- Desktops ----------*/ 
 @media (min-width: 1200px) {
   header {
     background-color:firebrick ;
@@ -102,6 +106,10 @@ footer {
 
   footer {
     background-color: slateblue ;
+  }
+
+  .col-3 {
+    width: 33.3%;
   }
    
 }
